@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Gate | Privacy Intelligence</title>
+
+   <link rel="stylesheet" href="./style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <span>◈</span>
+
+        Privacy Intelligence
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="scan.html">Scan</a>
+
+        <a href="results.html">Results</a>
+
+        <a href="#">About</a>
+
+    </nav>
+
+</header>
+
+
+
+<main class="gate-page">
+
+
+    <!-- HEADER -->
+
+    <section class="gate-header">
+
+        <div class="badge">
+            PRIVACY GATE
+        </div>
+
+
+        <div class="gate-symbol">
+
+            <div class="gate-ring"></div>
+
+            <div class="gate-center">
+                ◈
+            </div>
+
+        </div>
+
+
+        <h1>
+
+            One final
+
+            <span>privacy check.</span>
+
+        </h1>
+
+
+        <p>
+
+            Review your protection settings before
+            the document leaves the Privacy Intelligence
+            environment.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- SECURITY CHECK -->
+
+    <section class="security-check">
+
+
+        <div class="check-header">
+
+            <div>
+
+                <span class="section-number">
+                    01
+                </span>
+
+
+                <h2>
+                    Security checkpoint
+                </h2>
+
+            </div>
+
+
+            <span class="gate-status">
+                READY
+            </span>
+
+        </div>
+
+
+
+        <div class="check-list">
+
+
+            <div class="check-row">
+
+                <div class="check-icon">
+                    ✓
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Sensitive information identified
+                    </h3>
+
+                    <p>
+                        08 sensitive items were detected
+                        during the privacy scan.
+                    </p>
+
+                </div>
+
+
+                <span class="check-state">
+                    VERIFIED
+                </span>
+
+            </div>
+
+
+
+            <div class="check-row">
+
+                <div class="check-icon">
+                    ✓
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Protection method selected
+                    </h3>
+
+                    <p>
+                        Privacy masking rules have been
+                        selected for the detected information.
+                    </p>
+
+                </div>
+
+
+                <span class="check-state">
+                    VERIFIED
+                </span>
+
+            </div>
+
+
+
+            <div class="check-row warning">
+
+                <div class="check-icon">
+                    !
+                </div>
+
+
+                <div>
+
+                    <h3>
+                        Final protection review
+                    </h3>
+
+                    <p>
+                        Confirm that all sensitive information
+                        is protected before continuing.
+                    </p>
+
+                </div>
+
+
+                <span class="check-state">
+                    REVIEW
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- WARNING -->
+
+    <section class="gate-warning">
+
+        <div class="warning-symbol">
+            !
+        </div>
+
+
+        <div>
+
+            <h2>
+                Privacy checkpoint required
+            </h2>
+
+
+            <p>
+                Once protected, sensitive information should
+                no longer remain exposed in the shared
+                document.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ACTIONS -->
+
+    <section class="gate-actions">
+
+
+        <button
+            class="back-button"
+            onclick="goBackToMask()">
+
+            ← GO BACK
+
+        </button>
+
+
+        <button
+            class="gate-continue"
+            onclick="protectAndContinue()">
+
+            PROTECT & CONTINUE
+
+            <span>→</span>
+
+        </button>
+
+
+    </section>
+
+
+</main>
+
+
+
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Mask | Privacy Intelligence</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <span>◈</span>
+
+        Privacy Intelligence
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="scan.html">Scan</a>
+
+        <a href="results.html">Results</a>
+
+        <a href="#">About</a>
+
+    </nav>
+
+</header>
+
+
+
+<main class="mask-page">
+
+
+    <!-- HEADER -->
+
+    <section class="mask-header">
+
+        <div class="badge">
+            PRIVACY MASK
+        </div>
+
+
+        <h1>
+
+            Protect what
+
+            <span>should remain private.</span>
+
+        </h1>
+
+
+        <p>
+
+            Select sensitive information and choose
+            how it should be protected before sharing
+            your document.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- EDITOR -->
+
+    <section class="mask-editor">
+
+
+        <!-- DOCUMENT PREVIEW -->
+
+        <div class="mask-document">
+
+            <div class="document-title">
+                DOCUMENT PREVIEW
+            </div>
+
+
+            <div class="fake-document">
+
+                <h3>
+                    Personal Information
+                </h3>
+
+
+                <p>
+                    Name: <span class="sensitive blackout">
+                        Jayasri Thiruvengadam
+                    </span>
+                </p>
+
+
+                <p>
+                    Email:
+                    <span class="sensitive ghost">
+                        jayasri@example.com
+                    </span>
+                </p>
+
+
+                <p>
+                    Phone:
+                    <span class="sensitive lock">
+                        +91 98765 43210
+                    </span>
+                </p>
+
+
+                <p>
+                    Government ID:
+                    <span class="sensitive smart">
+                        XXXX XXXX XXXX
+                    </span>
+                </p>
+
+
+                <p>
+                    Account:
+                    <span class="sensitive replace">
+                        [PROTECTED]
+                    </span>
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- MASK CONTROLS -->
+
+        <div class="mask-controls">
+
+
+            <div class="control-heading">
+
+                <span class="section-number">
+                    01
+                </span>
+
+
+                <h2>
+                    Protection method
+                </h2>
+
+
+                <p>
+                    Choose how sensitive information
+                    should appear in the protected document.
+                </p>
+
+            </div>
+
+
+
+            <div class="mask-options">
+
+
+                <button class="mask-option active">
+
+                    <strong>
+                        BLACKOUT
+                    </strong>
+
+                    <span>
+                        Completely hide
+                    </span>
+
+                </button>
+
+
+
+                <button class="mask-option">
+
+                    <strong>
+                        GHOST
+                    </strong>
+
+                    <span>
+                        Partially obscure
+                    </span>
+
+                </button>
+
+
+
+                <button class="mask-option">
+
+                    <strong>
+                        LOCK
+                    </strong>
+
+                    <span>
+                        Restrict visibility
+                    </span>
+
+                </button>
+
+
+
+                <button class="mask-option">
+
+                    <strong>
+                        SMART MASK
+                    </strong>
+
+                    <span>
+                        Automatically protect
+                    </span>
+
+                </button>
+
+
+
+                <button class="mask-option">
+
+                    <strong>
+                        REPLACE
+                    </strong>
+
+                    <span>
+                        Replace with safe text
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+
+            <div class="mask-summary">
+
+                <span>
+                    SELECTED ITEMS
+                </span>
+
+
+                <strong>
+                    08
+                </strong>
+
+
+                <p>
+                    Sensitive items ready for protection.
+                </p>
+
+            </div>
+
+
+
+            <button
+                class="continue-button"
+                onclick="continueToGate()">
+
+                CONTINUE TO PRIVACY GATE
+
+                <span>→</span>
+
+            </button>
+
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
